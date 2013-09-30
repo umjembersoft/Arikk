@@ -1,0 +1,50 @@
+GET / HTTP/1.1
+//KET:Mengirim data ke server
+
+Host: www.google.com
+//KET:Alamat URL Google
+
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+//KET:Browser Client menggunakan Mozilla/5.0 serial Gecko/20100101 tipe Firefox 23.0
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+//KET:Menerima data teks,aplication,xhtml + xml
+
+Accept-Language: en-US,en;q=0.5
+//KET:Menerima Bahasa dari web yang dituju yaitu menggunakan bahasa United Stated
+
+Accept-Encoding: gzip, deflate
+DNT: 1
+//KET:Menerima Enconding Gzip dan Deflate
+
+Cookie: NID=67=VZZKGAmtiHjigHxPVrIPpWoRbTEFagUf425CEdaTuNjWN5_tHHkii8NdXyiqHrIg4__-tUosoqgoflXAcF3UMb3zavHyXiPGHt_ufXsMJnEh6LkAnnqkjPTTz7fiwd8mWQx2g0Fv5OsblrRzlWM147mjdHFTk15FUgd3Fw; PREF=ID=52c158812bf7c905:U=777a3041dc7da676:FF=0:LD=id:TM=1372468356:LM=1373547574:GM=1:S=NiwHtqCDxJB4MD9z
+//KET:Penyimpan informasi yang dapat digunakan untuk mengidentifikasi atau mengontak akses
+
+Connection: keep-alive
+//KET:Koneksi yang bisa di akses oleh semua
+
+
+RESPONT
+
+
+HTTP/1.1 200 OK
+//KET:Sukses masuk jarak 1-200 proses berhasil
+
+Alternate-Protocol: 443:quic
+Cache-Control: private, max-age=0
+//KET:Pengawasan Terbatas
+
+Content-Encoding: gzip
+//KET:KOnten pengkodean gzip
+
+Content-Type: text/html; charset=UTF-8
+//KET:Konten type text/html
+
+Date: Sun, 29 Sep 2013 14:05:08 GMT
+//KET:Tanggal memproses Google hari Minggu 29 September 2013
+
+Expires: -1
+Server: gws
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Firefox-Spdy: 3
